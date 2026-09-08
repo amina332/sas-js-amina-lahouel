@@ -21,4 +21,19 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+
+
+use strict';
+
+const montantEmprunte = 100000;
+const dureeEnMois = 24;
+const revenuMensuel = 8000;
+
+const mensualite = montantEmprunte / dureeEnMois;
+const mensualiteMax = revenuMensuel * 0.30;
+
+if (mensualite <= mensualiteMax)
+{console.log(`Prêt accordé. Mensualité : ${mensualite.toFixed(2)} MAD`);}
+else if (revenuMensuel > 10000) {console.log("Nous vous proposons d'augmenter la durée du prêt.");}
+else {console.log("Prêt refusé");}
