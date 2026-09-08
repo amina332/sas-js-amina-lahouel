@@ -17,4 +17,23 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+const nombre1 = 10;
+const nombre2 = 5;
+const operateur = "*";
+switch (operateur) {
+    case "*":
+       console.log(nombre1 * nombre2)
+        break;
+    case "+":
+        console.log(nombre1 + nombre2)
+        break;
+    case "-":
+        console.log(nombre1 - nombre2)
+        break
+    case "/":
+        console.log(nombre1 / nombre2)   
+    default:
+        break;
+}
