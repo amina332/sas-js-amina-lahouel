@@ -15,4 +15,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let A = 42
+let B = "YouCode"
+let C = true
+let D ;
+let E = null
+console.log(typeof A)
+console.log(typeof B)
+console.log(typeof C)
+console.log(typeof D)
+console.log(typeof E)
