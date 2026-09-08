@@ -17,4 +17,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+const prixExtrait = "  349.99 MAD  ";
+
+const prix = Number(prixExtrait.trim().replace(" MAD", ""));
+
+const prixTotal = prix * 2;
+
+console.log(prixTotal);
+console.log(typeof prixTotal);
