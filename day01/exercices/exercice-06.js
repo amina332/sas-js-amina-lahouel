@@ -1,24 +1,20 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 01 · EXERCICE 01 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * DÉCLARATION BASIQUE
+ * JOUR 01 · EXERCICE 06 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * INCRÉMENTATION
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Déclarez une constante PI avec la valeur 3.14. Déclarez une variable rayon avec la valeur 5. Calculez le périmètre d'un cercle (2 * PI * rayon) et stockez-le dans une variable.
+ * Déclarez une variable compteur = 0. Incrémentez-la 3 fois en utilisant l'opérateur ++. Affichez le résultat final.
  *
  * RÉSULTAT ATTENDU
- * 31.4
+ * 3
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
- * ▶️ Commande : node day01/exercices/exercice-01.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-06
+ * ▶️ Commande : node day01/exercices/exercice-06.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const PI = 3.14;
-let rayon = 5;
-const périmètre = 2 * PI * rayon;
-console.log(périmètre);
+// TODO: écris ta solution ici.

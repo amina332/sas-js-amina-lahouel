@@ -1,24 +1,20 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 01 · EXERCICE 01 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * DÉCLARATION BASIQUE
+ * JOUR 01 · EXERCICE 05 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * LE TEST DU MODULO
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Déclarez une constante PI avec la valeur 3.14. Déclarez une variable rayon avec la valeur 5. Calculez le périmètre d'un cercle (2 * PI * rayon) et stockez-le dans une variable.
+ * Déclarez une variable nombre = 15. Utilisez l'opérateur modulo % pour vérifier si le reste de sa division par 2 est égal à 0. Si c'est le cas, affichez "Pair", sinon "Impair".
  *
  * RÉSULTAT ATTENDU
- * 31.4
+ * Impair
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
- * ▶️ Commande : node day01/exercices/exercice-01.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-05
+ * ▶️ Commande : node day01/exercices/exercice-05.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const PI = 3.14;
-let rayon = 5;
-const périmètre = 2 * PI * rayon;
-console.log(périmètre);
+// TODO: écris ta solution ici.

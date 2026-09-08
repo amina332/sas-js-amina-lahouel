@@ -1,24 +1,20 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 01 · EXERCICE 01 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * DÉCLARATION BASIQUE
+ * JOUR 01 · EXERCICE 03 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * CALCUL DE TVA
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Déclarez une constante PI avec la valeur 3.14. Déclarez une variable rayon avec la valeur 5. Calculez le périmètre d'un cercle (2 * PI * rayon) et stockez-le dans une variable.
+ * Le prix HT d'un produit est de 200 MAD. La TVA est de 20% (soit 0.20). Calculez et affichez le prix TTC (TTC = HT + (HT * TVA)).
  *
  * RÉSULTAT ATTENDU
- * 31.4
+ * 240
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
- * ▶️ Commande : node day01/exercices/exercice-01.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
+ * ▶️ Commande : node day01/exercices/exercice-03.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const PI = 3.14;
-let rayon = 5;
-const périmètre = 2 * PI * rayon;
-console.log(périmètre);
+// TODO: écris ta solution ici.

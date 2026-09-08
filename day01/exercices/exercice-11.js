@@ -1,24 +1,20 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 01 · EXERCICE 01 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * DÉCLARATION BASIQUE
+ * JOUR 01 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * VALIDATION DE PANIER
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Déclarez une constante PI avec la valeur 3.14. Déclarez une variable rayon avec la valeur 5. Calculez le périmètre d'un cercle (2 * PI * rayon) et stockez-le dans une variable.
+ * Un client achète un panier de 350 MAD. S'il dépasse 200 MAD, la livraison est gratuite. S'il dépasse 500 MAD, il a en plus 10% de réduction. Affichez le coût final du panier et si la livraison est gratuite ou non.
  *
  * RÉSULTAT ATTENDU
- * 31.4
+ * Coût final: 350 MAD, Livraison: Gratuite
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
- * ▶️ Commande : node day01/exercices/exercice-01.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
+ * ▶️ Commande : node day01/exercices/exercice-11.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-const PI = 3.14;
-let rayon = 5;
-const périmètre = 2 * PI * rayon;
-console.log(périmètre);
+// TODO: écris ta solution ici.
