@@ -24,7 +24,7 @@
 
 
 
-use strict';
+
 
 const montantEmprunte = 100000;
 const dureeEnMois = 24;
