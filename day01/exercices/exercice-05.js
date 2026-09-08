@@ -20,3 +20,8 @@
 
 
 
+const nombre = 15 ;
+if (nombre % 2 === 0) { console.log("Pair");}
+else { console.log("Impair"); }
+
+
