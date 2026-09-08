@@ -12,7 +12,7 @@
 
 
 
-use strict';
+
 
 let data = "123";
 
