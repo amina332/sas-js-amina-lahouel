@@ -17,4 +17,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+const a = 3;
+const b = 4;
+const c = 5;
+
+if (a < b + c && b < a + c && c < a + b)
+{console.log("Triangle valide");}
+else {console.log("Triangle non valide");}
