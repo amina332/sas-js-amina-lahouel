@@ -20,6 +20,5 @@
 
 const HT = 200
 const TVA = 0.20
-const TTC = (HT + (HT * TVA))
-console.log(TTC);
-
+const TTC = (HT +(HT * TV))
+console.log(TTC)

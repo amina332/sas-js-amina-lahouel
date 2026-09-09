@@ -22,10 +22,10 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+var est une encienne façon de déclaration et il a un scope de fonction pas un bloc et let a un scope de bloc on ne peut pas le redéclaréer dans le même scope mais peut être réassignée et concernant const est une constante a le même scope de bloc que let mais la variable ne peut pas être réassignée. Elle doit être initialisée à la déclaration et les objets et tableaux déclarés avec const peuvent être modifiés 
 > À compléter avec mes propres mots.
 
----
+--- 
 
 ### Question 02
 
@@ -34,7 +34,14 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+il y a 7 types primitifs de données en JavaScript
+    string: on l'utilise dans le texte par exemple:"Bonjour"
+    number: on l'utilise dans les nombres entiers et décimaux par exemple:18 ou 23.9
+    biglnt: on l'utilise dans les très grands nombres entiers pqr exemple:26378393635489
+    boolean: c'est true/false
+    undefined: est un variable déclarée mais sans valeur et s'ecrit: undefined
+    null: declare l'absence volontaire de valeur avec l'expression: nul
+    symbol: on l'utilise souvent comme identifiant et il porte une valeur unique il s'ecrit sous forme: symbol(id)
 > À compléter avec mes propres mots.
 
 ---
