@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+for (let ligne = 1; ligne <= 3; ligne++){
+let texte = ""
+for (let collone  = 0; collone <= 3; collone++) { texte = texte + "*"
+}
+console.log(texte)
+}
