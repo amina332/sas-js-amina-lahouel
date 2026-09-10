@@ -21,7 +21,7 @@
 
 
 for(let i=0 ; i <=5; i++)
-    (let ligne = "";)
+    (let ligne = "")
 for(let j=1 j <=i ; j++)
     {let ligne = ligne +"*" }
 {comsole.log(ligne);}

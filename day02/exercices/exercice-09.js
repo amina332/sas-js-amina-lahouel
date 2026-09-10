@@ -31,4 +31,4 @@ for(let i=1; i<=50; i++) {
     }else{
         console.log("FizzBuzz")
     }
-
+}
