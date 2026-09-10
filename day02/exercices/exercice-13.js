@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+
+
+let num1 = 0 ;
+let num2 =1 ;
+console.log(num1)
+console.log(num2)
+
+for(let i=2 ; i<=10 ; i++){let fact = num1+num2; console.log(fqct);num1;1=num2;num1=fact}
