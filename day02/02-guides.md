@@ -14,7 +14,9 @@
 ### 🎯 Mission
 
 Affichez les nombres de 1 à 5 dans la console.
-
+for(let i = 1; i <= 5; i++) {
+    console.log(i)
+}
 <details>
 <summary><strong>Besoin d'aide ? Afficher les indices</strong></summary>
 
@@ -31,7 +33,7 @@ Vous savez exactement combien de fois vous voulez répéter l'action. La boucle 
 
 ### ✅ Vérification
 
-- [ ] J'ai essayé avant d'ouvrir les indices.
+- [*] J'ai essayé avant d'ouvrir les indices.
 - [ ] Mon fichier s'exécute sans erreur.
 - [ ] Je peux expliquer chaque étape.
 
@@ -46,6 +48,11 @@ Vous savez exactement combien de fois vous voulez répéter l'action. La boucle 
 ### 🎯 Mission
 
 On vous donne un nombre `N = 100`. Divisez ce nombre par 2 en boucle jusqu'à ce qu'il soit strictement inférieur à 1. Comptez combien de divisions ont été nécessaires.
+
+let N =100
+while (N >=1)
+N = N / 2
+compteur++
 
 <details>
 <summary><strong>Besoin d'aide ? Afficher les indices</strong></summary>
@@ -66,7 +73,7 @@ Vous ne savez pas à l'avance combien de fois il faudra diviser. La boucle `whil
 
 ### ✅ Vérification
 
-- [ ] J'ai essayé avant d'ouvrir les indices.
+- [*] J'ai essayé avant d'ouvrir les indices.
 - [ ] Mon fichier s'exécute sans erreur.
 - [ ] Je peux expliquer chaque étape.
 
@@ -84,7 +91,10 @@ Affichez un carré de 3 lignes et 3 colonnes rempli d'étoiles `*`.
 
 <details>
 <summary><strong>Besoin d'aide ? Afficher les indices</strong></summary>
-
+for(let i = 0; i <= 3; i++)
+let ligne = ""
+for (let j = 0; j <3; j++){ logne += "*"}
+console.log(ligne)
 ### 💡 Indices
 
 La boucle externe gère les lignes (sauts de ligne). La boucle interne gère les colonnes d'une ligne spécifique.
@@ -102,10 +112,10 @@ La boucle externe gère les lignes (sauts de ligne). La boucle interne gère les
 
 - [ ] J'ai essayé avant d'ouvrir les indices.
 - [ ] Mon fichier s'exécute sans erreur.
-- [ ] Je peux expliquer chaque étape.
+- [*] Je peux expliquer chaque étape.
 
 
 ## ✅ Fin de l'étape
 
-- [ ] Les trois fichiers guidés contiennent ma propre solution.
+- [*] Les trois fichiers guidés contiennent ma propre solution.
 - [ ] Je peux expliquer les notions utilisées sans lire la démarche.
