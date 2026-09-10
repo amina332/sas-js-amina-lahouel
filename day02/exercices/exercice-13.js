@@ -19,9 +19,9 @@ let x = 0
 let y = 1
 for(let i=0; i < 10; i++){
     console.log(x)
-    let w = x + y
+    const w = x + y
     x=y; 
-    x=i
+    y=w
 }
 
 
