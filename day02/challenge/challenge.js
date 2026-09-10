@@ -21,4 +21,15 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+
+
+let codeSecret = 739
+{for(let i = 0; i <= 9; i++) {
+    for(let x = 0; x <= 9; x++){
+        for(let y = 0; y <= 9; y++)
+        
+    }
+
+  }
+}
