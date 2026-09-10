@@ -20,8 +20,11 @@
 
 
 
-for(let i=0 ; i <=5; i++)
-    (let ligne = "")
-for(let j=1 j <=i ; j++)
-    {let ligne = ligne +"*" }
-{comsole.log(ligne);}
+for(let ligne = 1 ; ligne <= 5; ligne++){
+    let etoiles = "";
+    for(let i = 1; i <= ligne; i++){
+        etoiles = etoiles + "*";
+     }
+    console.log(etoiles);
+}
+
