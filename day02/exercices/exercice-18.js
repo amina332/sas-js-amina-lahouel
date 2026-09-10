@@ -17,4 +17,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+
+let N =15
+let compteur = 0
+while (N !== 1) {
+   if (N % 2 ===0){
+    N= N / 2
+   } else {
+    N = N * 3 + 1
+   }
+compteur++
+}
