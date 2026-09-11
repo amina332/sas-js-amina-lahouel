@@ -9,6 +9,4 @@
  */
 'use strict';
 
-function testScope()
-testScope();
-console.log(secret);
+function

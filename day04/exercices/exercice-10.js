@@ -16,3 +16,15 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+function estPalindrome(mot) {
+    for (let i = 0; i < mot.length / 2; i++) {
+        if (mot[i] !== mot[mot.length - 1 - i]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+console.log(estPalindrome("radar"));
+console.log(estPalindrome("bonjour"));
