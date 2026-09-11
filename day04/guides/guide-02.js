@@ -9,4 +9,6 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+function testScope()
+testScope();
+console.log(secret);
