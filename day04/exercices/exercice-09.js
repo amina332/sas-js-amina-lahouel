@@ -16,4 +16,12 @@
 // 2. Écris ta solution sous cette ligne.
 
 
-function trouverMax(a, b, c)
+function trouverMax(a, b, c) {
+     if (a >= b  a >= c) {
+        return a;
+    } else if (b >= a  b >= c) {
+        return b;
+    } else {
+        return c;
+    }
+}
