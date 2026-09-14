@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+let phrase = "Bonjour le monde"
+let mot = phrase.split(" ")
+let transformation = mot[2] +" "+ mot[1]+" "+ mot[0]
+console.log(transformation);
+
