@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let somme = 0;
+
+for (let note of notes) {
+    somme += note;
+}
+
+let moyenne = somme / notes.length;
+
+console.log(moyenne);
