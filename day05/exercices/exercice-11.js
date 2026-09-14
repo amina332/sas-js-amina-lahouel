@@ -16,4 +16,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-
+let phrase = "Hyper Text Markup Language"
+let mots = phrase.split(" ")
+let result=
+mots[0][0]+
+mots[1][0]+
+mots[2][0]+
+mots[3][0]
+console.log(result);
