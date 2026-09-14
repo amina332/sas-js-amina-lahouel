@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function contientlecaractère(email){
+    return email.includes( "@" ) ;
+}
+console.log(contientlecaractère("amina.lahouel9@gmail.com"));
+console.log(contientlecaractère("amina.lahouel9gmail.com"))
+
+
