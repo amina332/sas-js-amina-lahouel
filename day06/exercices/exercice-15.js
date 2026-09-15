@@ -14,6 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
 
 
+
+let groupe1 = [1, 3, 5]
+let groupe2 = [2, 4, 6]
+let groupeTotale = []
+
+for (let i = 0; i < groupe1.length; i++) {
+    groupeTotale.push(groupe1[i]);
+    groupeTotale.push(groupe2[i]);
+}
+
+console.log(groupeTotale);
