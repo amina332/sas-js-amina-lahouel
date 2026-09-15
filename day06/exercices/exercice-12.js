@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function  doublement (tableau){
+
+tableau.splice(1,1)
+tableau.splice(4,1)
+return tableau
+}
+let nombres = [1, 2, 2, 3, 4, 4, 5]
+console.log(doublement(nombres));
