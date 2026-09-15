@@ -4,8 +4,11 @@
  * AJOUT DYNAMIQUE
  * ─────────────────────────────────────────────────────────────
  *
- * 🎯 MISSION"Yassine", "Sara", puis "Amine"
- *. Ajoutez-y successivement  en utilisant des méthodes de tableau.
+ * 🎯 MISSION
+ * 
+ * 🎯 MISSION
+ * Créez un tableau vide invites = []. Ajoutez-y successivement "Yassine", "Sara", puis "Amine" en utilisant des méthodes de tableau.
+ *
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
  * ▶️ Commande : node day05/exercices/exercice-02.js
@@ -14,4 +17,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let invites = []
+invites.push("Yassine")
+invites.push("Sara")
+invites.push("Amine")
+console.log(invites);
+
 
