@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function nombresPairs(nombre){
+    let resultat = [];
+
+    for (let i = 0; i < nombres.length; i++) {
+        if (nombres[i] % 2 === 0) {
+            resultat.push(nombres[i]);
+        }
+    }
+
+    return resultat;
+}
+let nombres = [1, 2, 3, 4, 5, 6];
+
+console.log(nombresPairs(nombres));
