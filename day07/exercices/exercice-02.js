@@ -18,8 +18,8 @@
 let utilisateur = {
     nom : "Amina",
     age : 18 ,
-    Admin : false,
+   estAdmi : false,
 }
-utilisateur.age = utilisateur.age + 1
+utilisateur.age++
 utilisateur.email = "aminalahouel9@gmail.com"
 console.log(utilisateur);
