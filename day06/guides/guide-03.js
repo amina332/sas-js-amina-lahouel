@@ -10,3 +10,7 @@
 'use strict';
 
 
+let file=["Alice", "Bob", "Charlie"]
+file.shift("Alice")
+file.push("David")
+console.log(file);
