@@ -9,8 +9,7 @@
  */
 'use strict';
 
-let voiture= {
-      "modèle" : "Corolla" ,
-    "l'année" : 2020
-}
-console.log(voiture.marque);
+let voiture = { marque: "Toyota",
+     modele: "Corolla",
+      annee: 2020 };
+ console.log(voiture.marque);
