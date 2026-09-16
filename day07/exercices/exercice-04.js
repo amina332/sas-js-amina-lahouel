@@ -18,7 +18,6 @@
 let utilisateur = {
     nom : "Amina",
     age : 18 ,
-   estAdmin : false,
     email : "aminalahouel9@gmail.com"
 }
 
