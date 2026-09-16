@@ -17,19 +17,28 @@
 
 let candidats = [{
     nom : "wiam" , score :13,
-    nom : "khalid" , score : 10 ,
+},
+
+{
+    nom : "khalid" , score : 100 ,
+},
+
+{
     nom : "zineb" , score : 11
+
 }
 
 ]
-function lemeilleur ( camdidats){
-    let indexMax = 0
-    for (let i = 0; i < candidats.length; i++) {
-        if (candidats[1].score >candidats[0].score)
-            if (candidats[2].score >candidats[0].score)
-
-     return candidats [indexMax].nom
-}
+function lemeilleur ( candidats){
+    let indexMax = candidats[0].score
+    let maxname = candidats[0].nom
+    for (let i = 1; i < candidats.length; i++) {
+        if (candidats[i].score >indexMax){
+            indexMax = candidats[i].score
+            maxname = candidats[i].nom
+        }
+    }
+        return maxname
 
 }
 console.log(lemeilleur(candidats));

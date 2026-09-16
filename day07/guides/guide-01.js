@@ -10,7 +10,6 @@
 'use strict';
 
 let voiture= {
-     "marque" : "Toyota" ,
       "modèle" : "Corolla" ,
     "l'année" : 2020
 }
