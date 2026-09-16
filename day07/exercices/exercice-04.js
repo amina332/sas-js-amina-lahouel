@@ -14,4 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let utilisateur = {
+    nom : "Amina",
+    age : 18 ,
+   estAdmin : false,
+    email : "aminalahouel9@gmail.com"
+}
+
+function possedePropriete(obj, cle){
+    return obj[cle] !== undefined;
+
+}
+console.log(possedePropriete(utilisateur,"age"));
