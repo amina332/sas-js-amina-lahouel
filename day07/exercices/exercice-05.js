@@ -20,4 +20,6 @@ let utilisateur = {
     age : 18 ,
     email : "aminalahouel9@gmail.com"
 }
-console.log(Object.keys(utilisateur));
+let obj = Object.keys(utilisateur);
+console.log(obj);
+
