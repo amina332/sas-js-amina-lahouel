@@ -14,4 +14,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let livres =[
+    { 
+        titre : "L'Étranger",
+        auteur : "Albert Camus"
+    },
+    
+    {
+        titre : "Les Misérables",
+        auteur : "Victor Hugo"
+    },
+
+    {
+        titre : "Madame Bovary",
+        auteur: "Gustave Flaubert"
+    }
+]
+console.log(livres[1].titre);
