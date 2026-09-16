@@ -18,7 +18,7 @@
 let utilisateur = {
     nom : "Amina",
     age : 18 ,
-    estAdmi : false,
+    estAdmin : false,
 }    
     console.log(utilisateur);
     

@@ -15,3 +15,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+let utilisateur = {
+    nom : "Amina",
+    age : 18 ,
+   estAdmin : false,
+}
+utilisateur.age++
+utilisateur.email = "aminalahouel9@gmail.com"
+delete utilisateur.estAdmin
+console.log(utilisateur);
